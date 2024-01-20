@@ -3,6 +3,7 @@ $PROJECT_NAME = "mi-proyecto-web3"
 
 # Instalar paquetes
 npm install axios
+npm install -g truffle
 
 # Crear el directorio del proyecto y navegar a él
 New-Item -ItemType Directory -Path $PROJECT_NAME
