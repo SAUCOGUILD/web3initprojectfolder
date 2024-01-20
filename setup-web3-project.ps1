@@ -1,6 +1,9 @@
 # Definir el nombre del proyecto
 $PROJECT_NAME = "mi-proyecto-web3"
 
+# Instalar paquetes
+npm install axios
+
 # Crear el directorio del proyecto y navegar a él
 New-Item -ItemType Directory -Path $PROJECT_NAME
 Set-Location $PROJECT_NAME
