@@ -4,33 +4,6 @@ Descripción
 Este script de PowerShell está diseñado para automatizar la creación de la estructura de carpetas
 para un proyecto Web3 que utiliza Truffle, React y Node.js. Está específicamente configurado para ser ejecutado en un sistema operativo Windows 11.
 
-La estructura del proyecto creada será la siguiente:
-
-## Estructura del Proyecto
-
-La estructura del proyecto creada será la siguiente(ver modo edit):
-
-mi-proyecto-web3/
-|
-|-- client/              # Directorio del front-end (React)
-|   |-- src/
-|   |-- public/
-|   |-- package.json
-|
-|-- contracts/           # Contratos inteligentes (Solidity)
-|
-|-- migrations/          # Scripts de migración
-|
-|-- test/                # Pruebas para los contratos
-|
-|-- server/              # Directorio del back-end (Node.js)
-|   |-- src/
-|   |-- package.json
-|
-|-- truffle-config.js    # Configuración de Truffle
-|-- package.json         # Dependencias y scripts a nivel de proyecto
-
-
 ##Requisitos Previos
 Asegúrese de tener instalados los siguientes componentes en su sistema:
 
